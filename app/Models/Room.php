@@ -20,7 +20,7 @@ class Room extends Model
         'Room' => ['roomNo' => '3', 'roomName' => '6891', 'capacity' => '11', 'status' => 'booked'],
         'Room' => ['roomNo' => '4', 'roomName' => '1234', 'capacity' => '07', 'status' => 'available'],
         'Room' => ['roomNo' => '5', 'roomName' => '4615', 'capacity' => '05', 'status' => 'booked'],
-        'Room' => ['roomNo' => '6', 'roomName' => '1122', 'capacity' => '15', 'status' => 'available'],
+        'Room' => ['roomNo' => '6', 'roomName' => '1122', 'capacity' => '15', 'status' => 'available']
     ];
 
     /*This function find a specific room based on roomNo*/

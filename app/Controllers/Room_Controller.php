@@ -6,7 +6,7 @@ use App\Models\Room;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\Controller;
 
-class Student_Controller extends Controller
+class Room_Controller extends Controller
 {
     use ResponseTrait;
 
@@ -23,7 +23,7 @@ class Student_Controller extends Controller
     {
 
         $model = new Room();
-        $room = $model->findAll($roomNo);
+        $room = $model->findAll();
         return $this->respond($room, 200, 'Object found(All Room)');
 
     }

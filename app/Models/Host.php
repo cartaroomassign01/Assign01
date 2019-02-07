@@ -19,7 +19,7 @@ class Host extends Model
         'Host' => ['id' => '3', 'company' => 'Richmond Public Library', 'address' => '34455 66ave Richmond,BC', 'email' => 'RPL@gmail.com'],
         'Host' => ['id' => '4', 'company' => 'Beans Coffee', 'address' => '45566 77ave Coquitlam,BC', 'email' => 'BeansCoffee@gmail.com'],
         'Host' => ['id' => '5', 'company' => 'Apex Buildings', 'address' => '56677 88ave Burnaby,BC', 'email' => 'ApexBuildings@gmail.com'],
-        'Host' => ['id' => '6', 'company' => 'Fleetwood Park Secondary', 'address' => '67788 99ave Surrey,BC', 'email' => 'FPS@gmail.com'],
+        'Host' => ['id' => '6', 'company' => 'Fleetwood Park Secondary', 'address' => '67788 99ave Surrey,BC', 'email' => 'FPS@gmail.com']
     ];
 
     /*Function to find a specific host*/

@@ -1,8 +1,8 @@
 <?php
-/**
+/*
 Created By: Erwin Berceles
 Patron Model accessed by the controller
-**/
+*/
 namespace App\Models;
 
 use CodeIgniter\Model;
@@ -59,7 +59,7 @@ class Patron extends Model
 		'data' =>
 			[
 				'id' => '6',
-				'name'=> 'Tachibana Kanade'
+				'name'=> 'Tachibana Kanade',
 				'phone'=>'830-238-1329',
 				'email'=>'waifufinder@real.3d.ca'
 			]
