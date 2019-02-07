@@ -21,6 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
+	
 	public $baseURL = 'http://comp4711.local';
 
 	/*
