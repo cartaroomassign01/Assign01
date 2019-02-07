@@ -127,6 +127,222 @@
 					should start by reading the
 					<a href="https://codeigniter4.github.io/CodeIgniter4">User Guide</a>.</p>
 
+                <!-- table of links to all the rooms -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <th>Rooms</th>
+                        <th><a href="<?php echo site_url('room/')?>">Rooms</a></th>
+                    </tr>
+                    <tr>
+                        <th>Room</th>
+                        <th><a href="<?php echo site_url('room/1')?>">Room 1</a></th>
+                        <th><form action="<?php echo site_url('room/edit/1')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('room/update/1')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('room/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('room/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('room/delete/1')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Room</th>
+                        <th><a href="<?php echo site_url('room/2')?>">Room 2</a></th>
+                        <th><form action="<?php echo site_url('room/edit/2')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('room/update/2')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('room/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('room/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('room/delete/2')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Room</th>
+                        <th><a href="<?php echo site_url('room/3')?>">Room 3</a></th>
+                        <th><form action="<?php echo site_url('room/edit/3')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('room/update/3')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('room/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('room/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('room/delete/3')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Room</th>
+                        <th><a href="<?php echo site_url('room/4')?>">Room 4</a></th>
+                        <th><form action="<?php echo site_url('room/edit/4')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('room/update/4')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('room/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('room/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('room/delete/4')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Room</th>
+                        <th><a href="<?php echo site_url('room/5')?>">Patron 5</a></th>
+                        <th><form action="<?php echo site_url('room/edit/5')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('room/update/5')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('room/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('room/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('room/delete/5')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/6')?>">Patron 6</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/6')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/6')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/6')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
+                <!-- table of links to all the host -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/')?>">Hosts</a></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/1')?>">Host 1</a></th>
+                        <th><form action="<?php echo site_url('host/edit/1')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/1')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/1')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/2')?>">Host 2</a></th>
+                        <th><form action="<?php echo site_url('host/edit/2')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/2')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/2')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/3')?>">Host 3</a></th>
+                        <th><form action="<?php echo site_url('host/edit/3')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/3')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/3')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/4')?>">host 4</a></th>
+                        <th><form action="<?php echo site_url('host/edit/4')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/4')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/4')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/5')?>">Host 5</a></th>
+                        <th><form action="<?php echo site_url('host/edit/5')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/5')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/5')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href="<?php echo site_url('host/6')?>">Host 6</a></th>
+                        <th><form action="<?php echo site_url('host/edit/6')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('host/update/6')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('host/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('host/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('host/delete/6')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
+                <!-- table of links to all the patrons -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/')?>">Patrons</a></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/1')?>">Patron 1</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/1')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/1')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/1')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/2')?>">Patron 2</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/2')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/2')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/2')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/3')?>">Patron 3</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/3')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/3')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/3')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/4')?>">Patron 4</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/4')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/4')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/4')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/5')?>">Patron 5</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/5')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/5')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/5')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr>
+                        <th>Patron</th>
+                        <th><a href="<?php echo site_url('patron/6')?>">Patron 6</a></th>
+                        <th><form action="<?php echo site_url('patron/edit/6')?>" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action="<?php echo site_url('patron/update/6')?>" method ="post"><button action="submit">Update</button></form></th>
+                        <th><form action="<?php echo site_url('patron/new')?>" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action="<?php echo site_url('patron/create')?>" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action="<?php echo site_url('patron/delete/6')?>" method ="post"><button action="submit">Delete</button></form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
 			</div>
 
 			<div class="footer">
