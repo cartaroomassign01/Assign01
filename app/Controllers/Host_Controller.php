@@ -26,32 +26,37 @@ class Host_Controller extends Controller
         return $this->respond($host, 200, 'Object found(Host)');
     }
 
-    /*Not implemented*/
-    function new () {
-        $this->fail(["Not used"], 418);
-    }
+   /*Not implemented*/
+   public function edit($id)
+   {
 
-    /*Not implemented*/
-    public function edit()
-    {
-        $this->fail(["Not used"], 418);
-    }
+       return $this->fail(["Not Implemented"], 200);
+   }
 
-    /*Not implemented*/
-    public function create()
-    {
-        $this->fail(["Not used"], 418);
-    }
+   /*Not implemented*/
+   public function new () {
 
-    /*Not implemented*/
-    public function update()
-    {
-        $this->fail(["Not used"], 418);
-    }
+       return $this->fail(["Not Implemented"], 200);
+   }
 
-    /*Not implemented*/
-    public function delete()
-    {
-        $this->fail(["Not used"], 418);
-    }
+   /*Not implemented*/
+   public function create()
+   {
+
+       return $this->fail(["Not Implemented"], 200);
+   }
+
+   /*Not implemented*/
+   public function update($id)
+   {
+        echo "abcd";
+       return $this->fail(["Not Implemented"], 200);
+   }
+
+   /*Not implemented*/
+   public function delete($id)
+   {
+
+       return $this->fail(["Not Implemented"], 200);
+   }
 }
