@@ -73,6 +73,9 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->resource('host',['controller' => 'Host_Controller'], ['websafe' => 1]);
+$routes->resource('patron',['controller' => 'Patron_Controller'], ['websafe' => 1]);
+$routes->resource('room', ['controller' => 'Room_Controller'], ['websafe' => 1]);
 
 /**
  * --------------------------------------------------------------------

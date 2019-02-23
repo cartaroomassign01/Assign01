@@ -83,7 +83,7 @@
 
 			<h1>Welcome to CodeIgniter</h1>
 
-			<p class="version">version <?= CodeIgniter\CodeIgniter::CI_VERSION ?></p>
+			<p class="version">version <?=CodeIgniter\CodeIgniter::CI_VERSION?></p>
 
 			<div class="logo">
 				<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -127,10 +127,103 @@
 					should start by reading the
 					<a href="https://codeigniter4.github.io/CodeIgniter4">User Guide</a>.</p>
 
+                <!-- table of links to all the rooms -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+					<tr>
+                        <th>Room</th>
+                        <th><a href = "room/">ALL Rooms</a></th>
+                    </tr>
+					<tr>
+                    <th>Room</th>
+                    <th><a href="room/1">Room 1</a></th>
+                        <th><form action = "/room/1/edit/" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action = "/room/1" method ="post"><button action="submit">Update</button>
+                        <input type = "hidden" name="_method" value="patch" />
+                        </form></th>
+                        <th><form action = "/room/new/" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action = "/room" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action = "/room/1/delete/" method ="post"><button action="submit">Delete</button>
+						<input type = "hidden" name="_method" value="delete" />
+						</form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
+                <!-- table of links to all the host -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <th>Host</th>
+                        <th><a href = "host/">ALL Hosts</a></th>
+                    </tr>
+                    <tr>
+                    <th>Host</th>
+                    <th><a href="host/3">Host 3</a></th>
+                        <th><form action = "/host/3/edit/" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action = "/host/3" method ="post"><button action="submit">Update</button>
+                        <input type = "hidden" name="_method" value="patch" />
+                        </form></th>
+                        <th><form action = "/host/new/" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action = "/host" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action = "/host/3/delete/" method ="post"><button action="submit">Delete</button>
+						<input type = "hidden" name="_method" value="delete" />
+						</form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
+                <!-- table of links to all the patrons -->
+                <table>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                        <th>Edit</th>
+                        <th>Update</th>
+                        <th>New</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                    </tr>
+					<tr>
+                        <th>Patron</th>
+                        <th><a href = "patron/">ALL Patrons</a></th>
+                    </tr>
+					<tr>
+                    <th>Patron</th>
+                    <th><a href="patron/3">Patron 6</a></th>
+                        <th><form action = "/patron/6/edit/" method ="get"><button action="submit">Edit</button></form></th>
+                        <th><form action = "/patron/6" method ="post"><button action="submit">Update</button>
+                        <input type = "hidden" name="_method" value="patch" />
+                        </form></th>
+                        <th><form action = "/patron/new/" method ="get"><button action="submit">New</button></form></th>
+                        <th><form action = "/patron" method ="post"><button action="submit">Create</button></form></th>
+                        <th><form action = "/patron/6/delete/" method ="post"><button action="submit">Delete</button>
+						<input type = "hidden" name="_method" value="delete" />
+						</form></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+
 			</div>
 
 			<div class="footer">
-				Page rendered in {elapsed_time} seconds. Environment: <?= ENVIRONMENT ?>
+				Page rendered in {elapsed_time} seconds. Environment: <?=ENVIRONMENT?>
 			</div>
 
 		</div>
