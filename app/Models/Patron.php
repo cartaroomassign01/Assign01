@@ -20,12 +20,12 @@ class Patron extends Model
 
     protected $data =
         [
-        'Patron1' => ['id' => '1','name'=> 'Jackson','phone'=>'1-800-267-2001','email'=>'alarmforce@shaw.ca'],
-		'Patron2' => ['id' => '2','name'=> 'Jeevan','phone'=>'911','email'=>'callmeambulance@helpme.org'] ,		
-		'Patron3' => ['id' => '3','name'=> 'Keller','phone'=>'604-123-1234','email'=>'fishlover@telus.net'],
-		'Patron4' => ['id' => '4','name'=> 'Chrysanthemum','phone'=>'778-298-2898','email'=>'flowers4lyfe@bell.ca'],
-		'Patron5' => ['id' => '5','name'=> 'Chi Chi','phone'=>'873-234-9182','email'=>'asianfromasia@wechat.us'],
-		'Patron6' => ['id' => '6','name'=> 'Tachibana Kanade','phone'=>'830-238-1329','email'=>'waifufinder@real.3d.ca']
+        '1' => ['id' => '1','name'=> 'Jackson','phone'=>'1-800-267-2001','email'=>'alarmforce@shaw.ca'],
+		'2' => ['id' => '2','name'=> 'Jeevan','phone'=>'911','email'=>'callmeambulance@helpme.org'] ,		
+		'3' => ['id' => '3','name'=> 'Keller','phone'=>'604-123-1234','email'=>'fishlover@telus.net'],
+		'4' => ['id' => '4','name'=> 'Chrysanthemum','phone'=>'778-298-2898','email'=>'flowers4lyfe@bell.ca'],
+		'5' => ['id' => '5','name'=> 'Chi Chi','phone'=>'873-234-9182','email'=>'asianfromasia@wechat.us'],
+		'6' => ['id' => '6','name'=> 'Tachibana Kanade','phone'=>'830-238-1329','email'=>'waifufinder@real.3d.ca']
         ];
 
     public function find($id = null)
