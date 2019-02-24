@@ -30,7 +30,10 @@ class Host extends Model
 
     /*Function to find all host*/
     public function findAll(int $limit = 0, int $offset = 0)
-    {
-        return $this->data;
+	{
+		$db = \Config\Database::connect();
+		$query = $db->query('SELECT * FROM host');
+		$results = $query->getResultObject();
+        return $results;
     }
 }
