@@ -15,12 +15,12 @@ class Room extends Model
     /*6 Sample data for Room Model*/
     protected $data =
         [
-        'Room' => ['roomNo' => '1', 'roomName' => '6953', 'capacity' => '04', 'status' => 'booked'],
-        'Room' => ['roomNo' => '2', 'roomName' => '7001', 'capacity' => '10', 'status' => 'available'],
-        'Room' => ['roomNo' => '3', 'roomName' => '6891', 'capacity' => '11', 'status' => 'booked'],
-        'Room' => ['roomNo' => '4', 'roomName' => '1234', 'capacity' => '07', 'status' => 'available'],
-        'Room' => ['roomNo' => '5', 'roomName' => '4615', 'capacity' => '05', 'status' => 'booked'],
-        'Room' => ['roomNo' => '6', 'roomName' => '1122', 'capacity' => '15', 'status' => 'available'],
+        '1' => ['roomNo' => '1', 'roomName' => '6953', 'capacity' => '04', 'status' => 'booked'],
+        '2' => ['roomNo' => '2', 'roomName' => '7001', 'capacity' => '10', 'status' => 'available'],
+        '3' => ['roomNo' => '3', 'roomName' => '6891', 'capacity' => '11', 'status' => 'booked'],
+        '4' => ['roomNo' => '4', 'roomName' => '1234', 'capacity' => '07', 'status' => 'available'],
+        '5' => ['roomNo' => '5', 'roomName' => '4615', 'capacity' => '05', 'status' => 'booked'],
+        '6' => ['roomNo' => '6', 'roomName' => '1122', 'capacity' => '15', 'status' => 'available']
     ];
 
     /*This function find a specific room based on roomNo*/
