@@ -8,7 +8,6 @@ class Home extends Controller
 	{
 		return view('welcome_message');
 	}
-
 	//--------------------------------------------------------------------
 
 }
