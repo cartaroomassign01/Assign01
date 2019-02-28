@@ -1,16 +1,37 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Walkthrough</title>
+<head>
+    <title>CartaRoom</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <style>
+        body {
+            background-color: powderblue;
+        }
 
-		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-	</head>
-	<body>
+        h1 {
+            font-size: 90px;
+            text-align: center;
+        }
 
+        h2 {
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+            text-align: center;
+        }
 
-            <p><a href="/">Home</a></p>
-            <p><a href="/hostPresenter">Presenter</a></p>
-            <p><a href="/host">Raw API</a></p>
-
-	</body>
+    </style>
+</head>
+<body>
+<h1> Welcome to CartaRoom!</h1>
+<br>
+<div>
+    <h2><a href="/">Home</a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="/HostPresenter">Presenter</a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="/Host">Raw API</a></h2>
+    <div>
+</body>
 </html>
