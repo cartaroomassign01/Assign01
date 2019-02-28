@@ -11,9 +11,9 @@
             <?php
             foreach ($records as $record) {
                 echo '<li>' .
-                '<a href="/hostPresenter/show/' . $record['id'] . '">' . $record['companyName'] . "(show)" . '</a>' .
+                '<a href="/HostPresenter/show/' . $record['id'] . '">' . $record['companyName'] . "(show)" . '</a>' .
                 ': ' . " " .
-                '<a href="/hostPresenter/edit/' . $record['id'] . '"> Edit</a>' . '</li>';
+                '<a href="/HostPresenter/edit/' . $record['id'] . '"> Edit</a>' . '</li>';
             }
             ?>
 
