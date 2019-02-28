@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Walkthrough</title>
-
         <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     </head>
     <style>
