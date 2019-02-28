@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to CodeIgniter</title>
+		<title>Walkthrough</title>
 
 		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 	</head>
 	<body>
 
+<<<<<<< HEAD
 		<style {csp-style-nonce}>
 			div.logo {
 				height: 200px;
@@ -227,6 +228,11 @@
 			</div>
 
 		</div>
+=======
+            <p><a href="/">Home</a></p>
+            <p><a href="/hostPresenter">Presenter</a></p>
+            <p><a href="/host">Raw API</a></p>
+>>>>>>> develop
 
 	</body>
 </html>
