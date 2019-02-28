@@ -27,12 +27,9 @@ h2{
     <div>			
           <h2> <a href="/">Home</a>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-           <a href="/hostPresenter">Presenter</a>
+           <a href="/HostPresenter">Presenter</a>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <a href="/host">Raw API</a></h2>
+            <a href="/Host">Raw API</a></h2>
     <div>
     </body>
-
-	</body>
-
 </html>
