@@ -19,7 +19,6 @@ h2{
  text-align: center;
 }
 
-<<<<<<< HEAD
 </style>
     </head>
     <body>
