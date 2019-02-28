@@ -7,10 +7,10 @@
     </head>
     <body>
 
-        <form action="/hostPresenter/update/<?php echo $record['code'] ?>" method="post">
+        <form action="/HostPresenter/update/<?php echo $record['id'] ?>" method="post">
             <?php
             foreach ($record as $field => $value) {
-                if ($field == 'code') {
+                if ($field == 'id') {
                     echo $value;
                 } else {
                     ?>
