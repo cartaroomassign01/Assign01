@@ -30,11 +30,15 @@ class HostPresenter extends Controller {
     }
     // process a block update
     public function update($id) {
-        // extract data from form (request->getVar)
-        // run the validation, against blocks->getValidationRules
-        // if ok, blocks->update($data)b&Bshow success?
-        // else redisplay the form with errors
-        return 'ok';
+         $this->host->update(
+         $id,
+         [
+            'companyName'  => $this->request->getVar('companyName'),
+             'address'  => $this->request->getVar('address'),
+             'email'  => $this->request->getVar('email'),
+        ]);
+         
+        return view('the_host',['records'=>$this->host->findAll()]);
     }
     //--------------------------------------------------------------------
 }
