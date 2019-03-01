@@ -11,7 +11,7 @@ class Host extends Model {
     protected $allowedFields = ['companyName', 'address', 'email'];
     protected $validationRules =
         [
-            'companyName' => 'required|alpha_numeric|max_length[32]',
+            'companyName' => 'required|alpha_numeric_space|max_length[32]',
             'address' => 'required|max_length[64]',
             'email' => 'required|valid_email|max_length[32]'
         ];
@@ -20,7 +20,7 @@ class Host extends Model {
         [
             'address' =>
                 [
-                    'is_uniqure' => 'Sorry, another business already exists at this location.'
+                    'is_unique' => 'Sorry, another business already exists at this location.'
                 ],
             'companyName' =>
                 [
